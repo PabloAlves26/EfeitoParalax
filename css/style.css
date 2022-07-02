@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 80px 4%;
+    font-family: l;
+    color: rgb(20, 20, 20);
+
+    /*Efeito Paralax*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2 {
+    margin-bottom:  20px;
+    margin-top: -40px;
+}
+#titulo {
+    margin-top: -30px;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section:nth-of-type(1) {  /*Chamando a primeira section do titulo*/
+    height: 10px;
+ }
+section:nth-of-type(2) {  /*Chamando a primeira section com nht-of-type*/
+    background-image: url("../img/imagem1.jpg");
+}
+section:nth-of-type(4) {  /*Chamando a primeira section com nht-of-type*/
+    background-image: url("../img/imagem2.jpg");
+}
+section:nth-of-type(6) {  /*Chamando a primeira section com nht-of-type*/
+    background-image: url("../img/imagem3.jpg");
+}
+section:nth-of-type(8) {  /*Chamando a primeira section com nht-of-type*/
+    background-image: url("../img/imagem5.jpg");
+}
+
+/*Configuração do section do texto*/
+
+section:nth-of-type(3) {  /*Chamando a primeira section com nht-of-type*/
+   height: 20px;
+   margin-top: -20px;
+   margin-bottom: 120px;
+}
+section:nth-of-type(5) {  /*Chamando a primeira section com nht-of-type*/
+    height: 20px;
+    margin-bottom: 90px;
+    margin-bottom: 120px;
+}
+section:nth-of-type(7) {  /*Chamando a primeira section com nht-of-type*/
+    height: 20px;
+    margin-bottom: 90px;
+    margin-bottom: 120px;
+}
+section:nth-of-type(9) {  /*Chamando a primeira section com nht-of-type*/
+    height: 20px;
+    margin-bottom: 90px;
+    margin-bottom: 120px;
+}
+section:nth-of-type(11) {  /*Chamando a primeira section com nht-of-type*/
+    height: 20px;
+    margin-bottom: 90px;
+    margin-bottom: 120px;
+}
